@@ -1269,6 +1269,12 @@
 		(uuid "5de778cc-c376-46eb-8d9f-0edba07fc9fe")
 	)
 	(junction
+		(at 656.59 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9d9ee0-a540-4030-9bee-e0ffdb281152")
+	)
+	(junction
 		(at -36.83 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1381,6 +1387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f68e179-2530-4050-a329-14db7faadba7")
+	)
+	(junction
+		(at 656.5632 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc3968d-2ad1-47fa-a2ec-4e893ef8904a")
 	)
 	(junction
 		(at 146.05 44.45)
@@ -3334,6 +3346,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 59.69) (xy 656.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36029ead-f0ff-44cc-a878-2147c8420157")
+	)
+	(wire
+		(pts
 			(xy 237.49 74.93) (xy 252.73 74.93)
 		)
 		(stroke
@@ -3894,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 656.59 59.69) (xy 664.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652fd554-4845-4c2c-8bee-cd1206ac6315")
+	)
+	(wire
+		(pts
 			(xy -21.59 59.69) (xy -36.83 59.69)
 		)
 		(stroke
@@ -4101,6 +4133,16 @@
 			(type default)
 		)
 		(uuid "6fb00010-0d1c-488a-89fb-99d428935d83")
+	)
+	(wire
+		(pts
+			(xy 656.5632 74.93) (xy 668.02 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741a5e19-5f53-43f0-a540-1f876c114dd4")
 	)
 	(wire
 		(pts
@@ -4944,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 74.93) (xy 668.02 74.93)
+			(xy 648.97 74.93) (xy 656.5632 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9589,6 +9631,72 @@
 			(project "Neopixel"
 				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 656.59 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ea5708-c981-462a-8699-fd69f1732eae")
+		(property "Reference" "TP5"
+			(at 659.13 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 659.13 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at 661.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 656.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7de2c0a3-3ff9-4fb0-935b-50df90ffa885")
+		)
+		(instances
+			(project "kicadpartsplacer"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16135,6 +16243,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 656.59 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc7141b-b39f-4206-9677-ed73d4479bd9")
+		(property "Reference" "TP6"
+			(at 659.13 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 659.13 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at 661.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 656.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "819216df-b277-47d0-b61b-f44eb62a62f2")
+		)
+		(instances
+			(project "kicadpartsplacer"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at -67.31 21.59 0)
 		(unit 1)
@@ -18223,6 +18397,72 @@
 			(project "kicadpartsplacer"
 				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
 					(reference "D135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 656.5632 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98f55081-18c2-4e67-a593-ec28baf50dbf")
+		(property "Reference" "TP4"
+			(at 659.1032 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 659.1032 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at 661.6432 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 661.6432 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 656.5632 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61aafc22-2e0b-45ce-ac85-08c5343c4dad")
+		)
+		(instances
+			(project "kicadpartsplacer"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
