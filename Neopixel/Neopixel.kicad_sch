@@ -747,6 +747,12 @@
 		(uuid "118c808b-0d2b-48aa-b935-44106d50cd8e")
 	)
 	(junction
+		(at -318.7432 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "162f7810-61df-425b-8db8-1b219d8c2939")
+	)
+	(junction
 		(at -204.47 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2211,6 +2217,12 @@
 		(uuid "daa60eee-2baa-43d1-a0de-86d998b45656")
 	)
 	(junction
+		(at -311.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db04808e-ad30-411b-9643-f61d151d7809")
+	)
+	(junction
 		(at 572.77 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3578,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy -311.15 74.93) (xy -295.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c1e5f0-a126-4021-a77e-bffb0430641c")
+	)
+	(wire
+		(pts
 			(xy -158.75 13.97) (xy -143.51 13.97)
 		)
 		(stroke
@@ -3705,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "5cf1a76f-be38-49e2-b1f5-6ef358e43a9c")
+	)
+	(wire
+		(pts
+			(xy -318.7432 59.69) (xy -311.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee661a5-2ba6-46ed-a0b0-b2d38a665fe4")
 	)
 	(wire
 		(pts
@@ -4608,6 +4640,16 @@
 	)
 	(wire
 		(pts
+			(xy -318.77 74.93) (xy -311.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23c0618-4514-4f6e-adb2-993444f841f2")
+	)
+	(wire
+		(pts
 			(xy -219.71 29.21) (xy -204.47 29.21)
 		)
 		(stroke
@@ -5508,7 +5550,7 @@
 	)
 	(wire
 		(pts
-			(xy -325.12 59.69) (xy -311.15 59.69)
+			(xy -325.12 59.69) (xy -318.7432 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5535,16 +5577,6 @@
 			(type default)
 		)
 		(uuid "ed0f8d45-2319-4c1c-9b61-5290b3503293")
-	)
-	(wire
-		(pts
-			(xy -295.91 74.93) (xy -311.15 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed546132-a557-4bf6-a025-761d95770e3f")
 	)
 	(wire
 		(pts
@@ -7359,6 +7391,72 @@
 			(project "Neopixel"
 				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
 					(reference "D197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at -318.7432 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "175ad289-0a28-41fd-9ff0-f6ba03b0898e")
+		(property "Reference" "TP6"
+			(at -316.2032 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -316.2032 65.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at -313.6632 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -313.6632 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at -318.7432 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f94407ee-7b06-4c23-9411-cef827d699b6")
+		)
+		(instances
+			(project "Neopixel"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16233,6 +16331,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at -318.7432 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7da8928d-15a6-4789-9b76-c58b976f0326")
+		(property "Reference" "TP5"
+			(at -316.2032 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -316.2032 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at -313.6632 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -313.6632 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at -318.7432 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b675d64-69ce-439a-9d15-a67dde0fed59")
+		)
+		(instances
+			(project "Neopixel"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at -143.51 36.83 180)
 		(unit 1)
@@ -24004,6 +24168,72 @@
 			(project "Neopixel"
 				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
 					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at -318.77 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6f3332c-df14-43e1-b6dd-69b406256564")
+		(property "Reference" "TP4"
+			(at -316.23 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -316.23 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Pegoku:TestPoint"
+			(at -313.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -313.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at -318.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24ffeea-c143-479f-84ee-5ed656ecacea")
+		)
+		(instances
+			(project "Neopixel"
+				(path "/0c64f9f6-2337-46e9-954e-fa62cdf10650"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
